@@ -1,0 +1,11 @@
+ex8
+I accidently added extra spaces to the final concantinated string when
+I made it sing frank zappa.
+^If you insert stuff into a string with formatting, make sure that you
+you pay attention to the spaces in both the parent and child strings
+
+when i tried to run the test, I failed to format it properly and confused 
+myself with multiple errors.
+ 
+don't blindly attempt to use the debug techniques. therefore, review this
+debugging technique tomarrow.
