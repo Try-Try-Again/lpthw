@@ -4,8 +4,19 @@ I made it sing frank zappa.
 ^If you insert stuff into a string with formatting, make sure that you
 you pay attention to the spaces in both the parent and child strings
 
-when i tried to run the test, I failed to format it properly and confused 
+when i tried to run the test, I failed to format it properly and confused
 myself with multiple errors.
- 
+
 don't blindly attempt to use the debug techniques. therefore, review this
 debugging technique tomarrow.
+
+ex9
+missed a '"' mark on the end of a string - basic detail stuff
+
+ex12
+switched the input and int functions. making the prompt attempt to use an 
+invalid integer as a prompt for the input.
+
+ex13
+I used a equal sign with a print command as if I was trying to assign a
+value to a variable called "print"
