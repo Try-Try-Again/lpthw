@@ -1,0 +1,27 @@
+from sys import argv
+from os.path import exists
+
+script, from_file, to_file = argv
+
+print(f"Copying from {from_file} to {to_file}")
+
+# we could do these two things on one line, how?
+indata = open(from_file.read())
+
+#print formatted string printing the length of indata
+print(f"The input file is {len(indata)} bytes long")
+
+#prints a string stating whenther to_file exists
+print(f"Does the output file exist? {exists(to_file)}")
+print("Ready, hot RETURN to continue, CTRL-C to abort.")
+#wait for conf
+input()
+
+out_file = open(to_file, 'w')
+out_file.write(indata)
+
+print("Alright, all done.")
+
+out_file.close()
+in_file.close()
+
