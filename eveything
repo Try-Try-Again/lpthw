@@ -1,0 +1,43 @@
+how can you print the string "Hello World!"? print("Hello World!")
+
+From bash, how can you run a python3.6 program called hello_world.py? python3.6 hello_world.py
+
+how can you add a comment to your code with the text "comment"? #comment
+
+what character stands as the addition symbol? +
+
+what character stands as the subtraction symbol? -
+
+what character stands as the division symbol? /
+
+what character stands as the multiplication symbol? *
+
+what character stands as the modulus symbol? %
+
+what character stands as the 'less than' symbol? < 
+
+what character stands as the 'greater than' symbol? >
+
+what character stands as the 'less than equal' symbol? <=
+
+what character stands as the 'greater than equal' symbol? >=
+
+what symbol allows print multiple things with one print command? ,
+
+how could you print the word 'chickens' and the sum of 2 and 2 with one print command? print("chickens", 2 + 2)
+
+how can you print a boolean value determining whether or not 2 is greater than 4? print(2 > 4)
+
+what does modulus do? returns the remainder from dividing two numbers
+
+how can you assign the numerical value of 100 to the variable 'cars'? cars = 100
+
+what characters can you use so substitute for a space when declaring a variable? '_' or '-'
+
+what symbol is found in floating point numbers? '.'
+
+what should you always have around operators? spaces
+
+how can you print a formatted string with text "My name is " and the text stored in a variable called 'name'? print(f"My name is {name}")
+
+continue on page 53
