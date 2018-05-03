@@ -1,0 +1,121 @@
+how can you print the string "Hello World!"? print("Hello World!")
+
+From bash, how can you run a python3.6 program called hello_world.py? python3.6 hello_world.py
+
+how can you add a comment to your code with the text "comment"? #comment
+
+what character stands as the addition symbol? +
+
+what character stands as the subtraction symbol? -
+
+what character stands as the division symbol? /
+
+what character stands as the multiplication symbol? *
+
+what character stands as the modulus symbol? %
+
+what character stands as the 'less than' symbol? < 
+
+what character stands as the 'greater than' symbol? >
+
+what character stands as the 'less than equal' symbol? <=
+
+what character stands as the 'greater than equal' symbol? >=
+
+what symbol allows print multiple things with one print command? ,
+
+how could you print the word 'chickens' and the sum of 2 and 2 with one print command? print("chickens", 2 + 2)
+
+how can you print a boolean value determining whether or not 2 is greater than 4? print(2 > 4)
+
+what does modulus do? returns the remainder from dividing two numbers
+
+how can you assign the numerical value of 100 to the variable 'cars'? cars = 100
+
+what characters can you use so substitute for a space when declaring a variable? '_' or '-'
+
+what symbol is found in floating point numbers? '.'
+
+what should you always have around operators? spaces
+
+how can you print a formatted string with text "My name is " and the text stored in a variable called 'name'? print(f"My name is {name}")
+
+how can you write a string with the text 'string'? 'string' or "string"
+
+how can you write the string "my name is " along with a variable to be formatted later? "my name is {}"
+
+how can you print the variable "my_name_is" and format it with the variable 'name'? print(my_name_is.format(name))
+
+how can you print ten '.' strings by only writing it once? print("." * 10)
+
+how can you print a string in the variable 'formatter' which has two pairs of curly braces and format it with the varaibles 'first' and 'second' in that order? print(formatter.format(first, second))
+
+how can you write a string on one line that will be returned on two lines - the first line should say "my name is " and the second line should say 'ryan'? "my name is \nryan"
+
+how can you write a multi line string that follows the format that you typed? use """ instead of "
+
+how can you write the string "I am 6'2" tall" without getting any errors? "I am 6'2\" tall."
+
+how can you write the string 'I am 6'2" tall' without getting any errors? 'I am 6\'2" tall.'
+
+how can you you write the string "	I'm tabbed in." with an escape sequence to do the tabbing? "\tI'm tabbed in."
+
+how can you the write the string "a\s\l" without errors? "a\\s\\l"
+
+how can you assign a value from user input to the variable 'age'? age = input()
+
+how can you print the string "How old are you?" but leave the cursor on the printed line (with just a space added) for later user input? print("How old are you?", end=' ')
+
+how can you assign an integer value to the variable 'x' from user input? x = int(input())
+
+how can you import 'argv' from 'sys'? from sys import argv
+
+what does argv do? it takes the arguments given when running a python script and stores them in a list for the script to use.
+
+what is the first value in the list given by argv? script name
+
+how can you assign values from argv to the variables 'first', 'second', and 'third' in the order gathered by argv with one statement? script, first, second, third = argv
+
+how can you assign a value to the variable 'likes' from user input with a promt found in the variable 'prompt'? likes = input(prompt)
+
+how can you assign a filename stored in the variable 'filename' to the variable 'text'? text = open(filename)o
+
+how can you print text all the text in a file assigned to the variable 'text'? print(text.read())
+
+what kind of data does open() return? file object
+
+how can you open a file assigned to the variable 'filename' and assign it to the variable 'target' in WRITE mode? target = open(filename, 'w')
+
+once a file is opened into the variable 'target' in write mode, how can you truncate the file? target.truncate()
+
+once a file is opened into the variable 'target' in write mode, how can you can you write the contents of the variable 'line1' into it? target.write(line1)
+
+once a file is opened into the variable 'target', and the file is modified, how do we close the file in 'target'? target.close()
+
+how do you print whether or not the variable 'goober' exists? print(exists(goober))
+
+how do you import the 'exists' command to your script? from os.path import exists
+
+how do you define the function 'print_two' with an argument called 'args' - which will take a list off all arguments given at runtime? def print_two(*args):
+
+how do you assign the first and second values in the list 'args' to two variables: 'arg1' and 'arg2' respectively? arg1, arg2 = args
+
+how do you define the function 'print_two_again' with two arguments: 'arg1' and 'arg2'? def print_two_again(arg1, arg2):
+
+When defining a function, what is the first thing you should check? Did you start your function definition with def ?
+When defining a function, what should you ask after 'Did you start your function definition with def ?'? Does your function name have only characters and _ (underscore) characters?
+When defining a function, what should you ask after 'Does your function name have only characters and _ (underscore) characters?'? Did you put an open parenthesis ( right after the function name?
+When defining a function, what should you ask after 'Did you put an open parenthesis ( right after the function name?'? Did you put your arguments after the parenthesis ( separated by commas?
+When defining a function, what should you ask after 'Did you put your arguments after the parenthesis ( separated by commas?'? Did you make each argument unique (meaning no duplicated names)?
+When defining a function, what should you ask after 'Did you make each argument unique (meaning no duplicated names)?'? Did you put a close parenthesis and a colon ): after the arguments?
+When defining a function, what should you ask after 'Did you put a close parenthesis and a colon ): after the arguments?'? Did you indent all lines of code you want in the function four spaces? No more, no less.
+When defining a function, what should you ask after 'Did you indent all lines of code you want in the function four spaces? No more, no less.'? Did you ”end” your function by going back to writing with no indent (dedenting we call it)?
+
+When running a function, what is the first thing you should check? Did you call/use/run this function by typing its name?
+When running a function, what should you ask after 'Did you call/use/run this function by typing its name?'? Did you put the ( character after the name to run it?
+When running a function, what should you ask after 'Did you put the ( character after the name to run it?'? Did you put the values you want into the parenthesis separated by commas?
+When running a function, what should you ask after 'Did you put the values you want into the parenthesis separated by commas?'? Did you end the function call with a ) character?
+
+how can you increment the value of the variable 'current_line' by 1? current_line += 1
+
+what can you add to a function to return the sum of values of 'a' and 'b'? return a + b
