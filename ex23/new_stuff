@@ -1,0 +1,24 @@
+.strip() --> Returns a copy of the string with the leading and trailing characters removed.
+.encode() --> returns encoded version of a string
+.decode() --> decodes the string using codec registered for encoding
+if var: --> conditional
+encoding= flag that determines how to interpret a file
+
+what nmemonic should you remember for handling string encoding? DBES (dee bess)"decode bytes encode strings" 
+
+what do you do when you have bytes and need a string? Decode Bytes
+
+what do you do when you have a string and need bytes? Encode Strings
+
+Whats the first step to debugging a function?
+print(">>>> {{  function_name  }}") at beginning of function and print("<<<< exit {{  fuction_name  }}") at the end.
+Follow the same convention for each instruction in the function
+
+When you do a lot of debug printing, what should be different about each string you print? change up the '>>>>' '<<<<' to tell them apart.
+
+How big should your test case be when debugging? only as large as neccesarry
+
+experiment with debugging the functions
+
+google repr
+
